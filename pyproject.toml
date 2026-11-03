@@ -1,0 +1,20 @@
+# pyproject.toml
+[project]
+name = "simple-chess-engine"
+version = "0.1.0"
+description = "A tiny chess engine written in pure Python, using the chess library."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "OpenClaude Bot", email = "support@openclaude.com" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+python-chess = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
