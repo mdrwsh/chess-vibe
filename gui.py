@@ -164,7 +164,7 @@ class ChessGUI:
         self.board.push(move)
         self.update_board()
         if info:
-            self.info.config(text=format_info(info))
+            # self.info.config(text=format_info(info))
             print(format_info(info))
         if self.board.is_game_over():
             self.show_result()

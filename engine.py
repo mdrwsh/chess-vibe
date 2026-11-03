@@ -330,7 +330,7 @@ def format_info(info: dict) -> str:
         f"{info['time']:.2f}s | "
         f"{(info['nodes'] + info['qnodes']) / 1000:.1f}k nodes | "
         f"{info['tt_hits']} tt hits | "
-        f"pruned {info['pruning']:.0f}% of generated moves"
+        f"pruned {info['pruning']:.0f}% moves"
     )
 
 
